@@ -1,0 +1,23 @@
+.video-background {
+  position: relative;
+}
+video {
+  min-width: 100%;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 1rem;
+}
+.content h1 {
+  max-width: 15ch;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: var(--fw-bold);
+  line-height: 1;
+}
+.button {
+  justify-self: center;
+}

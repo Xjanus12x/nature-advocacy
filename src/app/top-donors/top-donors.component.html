@@ -1,0 +1,22 @@
+<div class="container d-grid">
+    <h5 class="">Donors</h5>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let donor of topDonors">
+                    <td>{{donor.user_name}}</td>
+                    <td>{{donor.user_email}}</td>
+                    <td>{{donor.donation_amount}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <button class="button" (click)="goToRoute('donors')">View More</button>
+</div>

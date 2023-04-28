@@ -1,0 +1,35 @@
+.orgs-container {
+  background-color: var(--clr3);
+  padding: 4rem;
+  gap: 2rem;
+}
+
+.orgs-container header {
+  text-align: center;
+}
+.orgs-container header h2 {
+  font-size: 2rem;
+}
+.orgs-container > section {
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+.org {
+  background-color: var(--clr4);
+  overflow: hidden;
+  border-radius: 20px;
+  border: 3px solid var(--clr2);
+}
+.org__description {
+  padding: 2rem;
+  justify-items: center;
+  gap: 1rem;
+}
+.org__description h5 {
+  font-size: 2rem;
+  max-width: 12ch;
+}
+.button {
+  justify-self: center;
+}

@@ -1,0 +1,27 @@
+.projects-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+.other-projects {
+  background-color: var(--clr4);
+  place-content: center;
+  text-align: center;
+  padding: 5rem;
+}
+.other-projects__title {
+  font-size: 3rem;
+}
+.button {
+  justify-self: center;
+}
+.other-projects {
+  place-content: center;
+  min-height: 31rem;
+}
+.project__description {
+  background-color: var(--clr1);
+  padding: 2rem;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 10px;
+  border: 5px solid var(--clr2);
+}

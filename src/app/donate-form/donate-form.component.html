@@ -1,0 +1,19 @@
+<div class="form-container d-grid">
+    <form class="form d-grid" [formGroup]="userDonationForm" (ngSubmit)="onSubmit()">
+
+        <label>Name</label>
+        <input class="form-control" type="text" formControlName="user_name" required>
+
+
+        <label>Email</label>
+        <input class="form-control" type="email" formControlName="user_email" required>
+
+
+
+        <label>Amount</label>
+        <input class="form-control" type="text" formControlName="donation_amount" required>
+
+        <button type="submit" class="button">Donate</button>
+
+    </form>
+</div>

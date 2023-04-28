@@ -1,0 +1,33 @@
+.about-section {
+  background-color: var(--clr3);
+  justify-content: space-between;
+  text-align: center;
+}
+.about-section article {
+  place-content: center;
+}
+.title-container {
+  font-size: 3rem;
+}
+.about-content {
+  margin-inline: auto;
+  place-content: center;
+}
+.about-description {
+  gap: 1rem;
+}
+.about-description p {
+  max-width: 50ch;
+  font-size: 1.2rem;
+}
+.about-us__img {
+  max-width: 40%;
+}
+.about-us__img img {
+  /* grid-column: span 2; */
+  max-width: 100%;
+  max-height: 80%;
+  /* object-fit: cover; */
+  /* object-position: center; */
+  /* aspect-ratio: 1 /1; */
+}

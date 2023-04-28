@@ -1,0 +1,17 @@
+<section class="projects-container d-grid" id="projects">
+    <section class="other-projects d-grid gap2">
+        <header>
+            <h2 class="other-projects__title txt-italic txt-yellow txt-bold">Other Projects</h2>
+        </header>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.</p>
+        <button class="button" data-large (click)="goToRoute('donate-form')">Donate</button>
+    </section>
+    <article class="other-projects d-grid" *ngFor="let project of projects"
+        [style.background-image]="'url(' + project.bgImgPath + ')'">
+        <section class="project__description d-grid">
+            <h4 class="txt-blue-dark txt-bold">{{project.projectTitle}}</h4>
+            <p class="txt-blue-dark">{{project.projectDescription}}</p>
+            <a class="txt-blue-ligh" [href]="project.projectLink">Inquire ></a>
+        </section>
+    </article>
+</section>

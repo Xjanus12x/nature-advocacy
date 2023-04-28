@@ -1,0 +1,20 @@
+[
+  {
+    "bgImgPath": "../../assets/images/image.png",
+    "projectTitle": "Lorem ipsum dolor",
+    "projectDescription": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.",
+    "projectLink": ""
+  },
+  {
+    "bgImgPath": "../../assets/images/image.png",
+    "projectTitle": "Lorem ipsum dolor",
+    "projectDescription": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.",
+    "projectLink": ""
+  },
+  {
+    "bgImgPath": "../../assets/images/image.png",
+    "projectTitle": "Lorem ipsum dolor",
+    "projectDescription": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.",
+    "projectLink": ""
+  }
+]

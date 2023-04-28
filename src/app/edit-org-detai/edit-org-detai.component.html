@@ -1,0 +1,12 @@
+<div class="form-container d-grid">
+    <form class="form d-grid" [formGroup]="updateForm" (ngSubmit)="onUpdate()">
+        <label>Organization name:</label>
+        <input class="form-control" type="text" formControlName="org_name" required>
+        <label>owner name:</label>
+        <input class="form-control" type="text" formControlName="owner_name" required>
+        <label>Date</label>
+        <input class="form-control" type="date" formControlName="date_created">
+        <button type="submit" class="button">Save</button>
+
+    </form>
+</div>

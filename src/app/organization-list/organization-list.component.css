@@ -1,0 +1,25 @@
+.container {
+  background-image: url(../../assets/backgrounds/donors-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  place-content: center;
+  min-width: 100%;
+  place-content: center;
+  padding: 5rem;
+}
+.title {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+  font-size: 3rem;
+}
+th,
+td {
+  color: var(--clr1);
+}
+
+.button-container {
+  justify-items: center;
+}
