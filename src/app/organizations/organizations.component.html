@@ -3,7 +3,7 @@
         <h2>JOIN US</h2>
     </header>
     <section class="d-grid">
-        <section class="org d-grid" *ngFor="let org of orgs">
+        <section class="org d-grid" *ngFor="let org of orgs" data-aos="fade-up" data-aos-duration="1000">
             <img [src]="org.orgImgPath" alt="">
             <div class="org__description d-grid">
                 <h5 class="txt-yellow">{{org.orgName}}</h5>
@@ -13,3 +13,7 @@
     </section>
     <button class="button" (click)="goToRoute('organization-list')">JOIN</button>
 </article>
+<div>
+</div>
+
+

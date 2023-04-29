@@ -1,20 +1,20 @@
 [
   {
-    "bgImgPath": "../../assets/images/image.png",
-    "projectTitle": "Lorem ipsum dolor",
-    "projectDescription": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.",
-    "projectLink": ""
+    "bgImgPath": "../../assets/images/abacan-river.jpg",
+    "projectTitle": "Abacan River and Angeles Watershed",
+    "projectDescription": "The ARAW-ACI Youth is the youth arm of ARAW-ACI, a non-profit group that promotes water security and watershed conservation, and the implementer of the Adopt-A-Watershed Reforestation Program in Sapangbato, Angeles City.",
+    "projectLink": "https://www.facebook.com/arawaci"
   },
   {
-    "bgImgPath": "../../assets/images/image.png",
-    "projectTitle": "Lorem ipsum dolor",
-    "projectDescription": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.",
-    "projectLink": ""
+    "bgImgPath": "../../assets/images/BCDA.jpg",
+    "projectTitle": "Bases Conversion and Development Authority",
+    "projectDescription": "Creating a sustainable future for all Filipinos is at the heart of BCDA’s development projects. From promoting urban agriculture and boosting green spaces to protecting biodiversity and utilizing renewable energy sources, we fulfill our mandate of building great communities that help uplift Filipino lives.",
+    "projectLink": "https://www.facebook.com/TheBCDAGroup"
   },
   {
-    "bgImgPath": "../../assets/images/image.png",
-    "projectTitle": "Lorem ipsum dolor",
-    "projectDescription": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.",
-    "projectLink": ""
+    "bgImgPath": "../../assets/images/plastic.jpg",
+    "projectTitle": "Walang Plastikan - Plastik Palit Bigas Project in Barangay Sapangbato.",
+    "projectDescription": "Walang Plastikan - Plastik Palit Bigas Project aims to encourage Angeleño households to practice waste segregation at source, in their own homes, as well as to reduce if not eliminate the use of plastics.Lazatin's Chief Adviser IC Calaguas said the city government will collect recyclable plastics from Angeleño households in exchange for rice.",
+    "projectLink": "https://www.facebook.com/LungsodNgAngeles/posts/pfbid0FHB2SDe9r1sd78ZL469KQaDtDGnffAGgSYztuvGyURSueEUndzRsEMKhYvBvmxJol"
   }
 ]

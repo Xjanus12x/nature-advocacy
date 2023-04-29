@@ -1,5 +1,6 @@
 .video-background {
   position: relative;
+  background-color: black;
 }
 video {
   min-width: 100%;

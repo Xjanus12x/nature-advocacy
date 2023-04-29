@@ -1,17 +1,17 @@
 [
   {
-    "orgName": "Tours & Travels Magazine",
-    "orgDescription": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.",
-    "orgImgPath": "../../assets/images/image.png"
+    "orgName": "World Wide Fund for Nature",
+    "orgDescription": "Their projects don't only focus on food, water, and climate, but on wildlife as well. In fact, they exert effort to ensure the survival of the rarest and most endangered species in the country. Also part of their aim is to transform lives by providing livelihood programs.",
+    "orgImgPath": "../../assets/images/WWFN.jpg"
   },
   {
-    "orgName": "Tours & Travels Magazine",
-    "orgDescription": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.",
-    "orgImgPath": "../../assets/images/image.png"
+    "orgName": "IVolunteer Philippines",
+    "orgDescription": "IVolunteer Philippines is a platform and group that provides assistance and support in various difficulties that the country is facing, one of which is tackling environmental issues, among other things. Tree planting, clean-up drives, and sustainable living programs are just some of the environmental volunteering events showcased and organized by the iVolunteer Philippines.",
+    "orgImgPath": "../../assets/images/IVolunteerPH.jpg"
   },
   {
-    "orgName": "Tours & Travels Magazine",
-    "orgDescription": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.",
-    "orgImgPath": "../../assets/images/image.png"
+    "orgName": "Greenpeace Philippines",
+    "orgDescription": "The main goal of Greenpeace Philippines is to protect natural landscapes, species, and more from environmental threats such as perilous waste imports, coal projects, and illegal logging.Aside from promoting ecological farming, this volunteer-based group also holds campaigns against land, air, and water pollution.",
+    "orgImgPath": "../../assets/images/GreenpeacePH.webp"
   }
 ]

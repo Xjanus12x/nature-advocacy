@@ -24,6 +24,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { OrgRegFormComponent } from './org-reg-form/org-reg-form.component';
 import { EditOrgDetaiComponent } from './edit-org-detai/edit-org-detai.component';
+import { MoreContentComponent } from './more-content/more-content.component';
 ContentComponent;
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ ContentComponent;
     OrganizationListComponent,
     OrgRegFormComponent,
     EditOrgDetaiComponent,
+    MoreContentComponent,
   ],
   imports: [
     BrowserModule,

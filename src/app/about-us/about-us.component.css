@@ -3,18 +3,19 @@
   justify-content: space-between;
   text-align: center;
 }
-.about-section article {
-  place-content: center;
-}
+
 .title-container {
   font-size: 3rem;
+}
+.title-container h2 {
+  font-size: 2.5rem;
 }
 .about-content {
   margin-inline: auto;
   place-content: center;
 }
 .about-description {
-  gap: 1rem;
+  gap: .5rem;
 }
 .about-description p {
   max-width: 50ch;
@@ -24,10 +25,10 @@
   max-width: 40%;
 }
 .about-us__img img {
-  /* grid-column: span 2; */
+  display: block;
   max-width: 100%;
-  max-height: 80%;
-  /* object-fit: cover; */
-  /* object-position: center; */
-  /* aspect-ratio: 1 /1; */
+  max-height: 50%;
+  object-fit: cover;
+  aspect-ratio: 3 / 3;
+  object-position: center;
 }

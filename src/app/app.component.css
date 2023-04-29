@@ -2,3 +2,7 @@
   min-height: 100vh;
   min-height: 100dvh;
 }
+footer {
+  padding: 2rem;
+  background-color: var(--clr2);
+}

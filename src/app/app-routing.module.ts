@@ -6,6 +6,7 @@ import { DonorsComponent } from './donors/donors.component';
 import { OrganizationListComponent } from './organization-list/organization-list.component';
 import { OrgRegFormComponent } from './org-reg-form/org-reg-form.component';
 import { EditOrgDetaiComponent } from './edit-org-detai/edit-org-detai.component';
+import { MoreContentComponent } from './more-content/more-content.component';
 
 const routes: Routes = [
   { path: '', component: ContentComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'organization-list', component: OrganizationListComponent },
   { path: 'org-reg', component: OrgRegFormComponent },
   { path: 'edit-book/:id', component: EditOrgDetaiComponent },
+  { path: 'more-content', component: MoreContentComponent },
 ];
 
 @NgModule({

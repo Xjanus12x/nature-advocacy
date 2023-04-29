@@ -3,15 +3,17 @@
         <header>
             <h2 class="other-projects__title txt-italic txt-yellow txt-bold">Other Projects</h2>
         </header>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.</p>
+        <p>If you're interested in learning more about these projects or want to get involved, visit our other projects
+            that help
+            nature to see how you can make a difference.</p>
         <button class="button" data-large (click)="goToRoute('donate-form')">Donate</button>
     </section>
     <article class="other-projects d-grid" *ngFor="let project of projects"
         [style.background-image]="'url(' + project.bgImgPath + ')'">
-        <section class="project__description d-grid">
+        <section class="project__description d-grid" data-aos="zoom-in" data-aos-duration="3">
             <h4 class="txt-blue-dark txt-bold">{{project.projectTitle}}</h4>
             <p class="txt-blue-dark">{{project.projectDescription}}</p>
-            <a class="txt-blue-ligh" [href]="project.projectLink">Inquire ></a>
+            <a class="txt-blue-ligh" [href]="project.projectLink" target="_blank">Inquire ></a>
         </section>
     </article>
 </section>

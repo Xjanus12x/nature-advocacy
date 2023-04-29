@@ -1,0 +1,53 @@
+.acts {
+  background-color: var(--clr4);
+  padding: 2rem;
+}
+.acts__title {
+  font-size: 2.5rem;
+}
+.act {
+  padding-left: 5rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+}
+.act__img-container {
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 2px solid var(--clr1);
+}
+.act__img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+  max-width: 30rem;
+}
+.act__description {
+  background-color: var(--clr3);
+  align-self: flex-start;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  /* border: 2px solid var(--clr2); */
+  outline: 2px solid var(--clr2);
+  outline-offset: -7px;
+}
+.start {
+  justify-self: start;
+}
+.end {
+  justify-self: end;
+}
+.default {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+}
+.reverse {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  z-index: 1;
+}
